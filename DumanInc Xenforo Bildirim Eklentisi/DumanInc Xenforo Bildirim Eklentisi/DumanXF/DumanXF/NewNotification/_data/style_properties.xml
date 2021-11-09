@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style_properties>
+  <style_property property_name="bodyanim_onoff" group_name="wbb_Notification" title="Body Animation Disable" description="If selected body animation off" property_type="value" value_type="boolean" display_order="0">
+    <value>1</value>
+  </style_property>
+  <style_property property_name="textanim_onoff" group_name="wbb_Notification" title="Text Animation Disable" description="If selected text animation off" property_type="value" value_type="boolean" display_order="1">
+    <value>1</value>
+  </style_property>
+  <style_property property_name="iconanim_onoff" group_name="wbb_Notification" title="Icon Animation Disable" description="If selected icon animation off" property_type="value" value_type="boolean" display_order="2">
+    <value>1</value>
+  </style_property>
+  <style_property property_name="info_icon" group_name="wbb_Notification" title="Message Icon" description="Change Message Icon. Change the code f0e0 to change the icon" property_type="value" value_type="unit" display_order="4">
+    <value>"f0e0"</value>
+  </style_property>
+  <style_property property_name="warning_icon" group_name="wbb_Notification" title="Notification Icon" description="Change Notification Icon. Change the code f77f to change the icon" property_type="value" value_type="unit" display_order="5"> 
+    <value>"f77f"</value>
+  </style_property>
+  <style_property property_name="count_font_size" group_name="wbb_Notification" title="Count Font Size" description="Change Count Font Size" property_type="value" value_type="unit" display_order="6">
+    <value>"20"</value>
+  </style_property>
+   <style_property property_name="text_effect" group_name="wbb_Notification" title="Text Effect" description="" property_type="value" value_type="select" display_order="7">
+<value_parameters>alert=Alert
+blur=Blur
+flicker=Flicker
+shine=Shine
+ripple=Ripple
+focus=Focus
+switch=Switch
+bounce=Bounce
+zoom=Zoom
+fade=Fade
+glow=Glow
+neon=Neon
+wobble=Wobble</value_parameters>
+      <value>"alert"</value>
+   </style_property>
+   <style_property property_name="info_color" group_name="wbb_Notification" title="Message Background Color" description="Change Message Background Color" property_type="value"  value_type="color" display_order="8">
+    <value>"#C43"</value>
+    </style_property> 
+	<style_property property_name="warning_color" group_name="wbb_Notification" title="Notification Background Color" description="Change Notification Background Color" property_type="value"  value_type="color" display_order="10">
+    <value>"#39B"</value>
+    </style_property>
+    <style_property property_name="info_color_hover" group_name="wbb_Notification" title="Message Background Hover Color" description="Change Message Background Hover Color" property_type="value"  value_type="color" display_order="9">
+    <value>"#5A6"</value>
+    </style_property> 
+	<style_property property_name="warning_color_hover" group_name="wbb_Notification" title="Notification Hover Background Color" description="Change Notification Background Hover Color" property_type="value"  value_type="color" display_order="11">
+    <value>"#5A6"</value>
+    </style_property>	
+  <style_property property_name="info_alert" group_name="wbb_Notification" title="Message Extra" property_type="css" display_order="100" css_components="border,border_radius,border_width_simple,border_color_simple,border_radius_simple,padding,extra">
+    <value>{
+    "border-width": "@xf-borderSize",
+    "border-color": "@xf-inputFocusBgColor",
+    "border-radius": "@xf-borderRadiusMedium",
+    "padding-top": "(@xf-paddingLarge+@xf-paddingMedium)",
+    "padding-right": "@xf-paddingMedium",
+    "padding-bottom": "(@xf-paddingLarge+@xf-paddingMedium)",
+    "padding-left": "@xf-paddingMedium",
+    "extra": "box-shadow: 0px 1px 5px xf-intensify(@xf-paletteNeutral2, 10%);\ncolor: #FFF;"
+}</value>
+  </style_property>
+  <style_property property_name="warning_alert" group_name="wbb_Notification" title="Notification Extra" property_type="css" display_order="101" css_components="border,border_radius,border_width_simple,border_color_simple,border_radius_simple,padding,extra">
+    <value>{
+    "border-width": "@xf-borderSize",
+    "border-color": "@xf-paletteAccent2",
+    "border-radius": "@xf-borderRadiusMedium",
+    "padding-top": "(@xf-paddingLarge+@xf-paddingMedium)",
+    "padding-right": "@xf-paddingMedium",
+    "padding-bottom": "(@xf-paddingLarge+@xf-paddingMedium)",
+    "padding-left": "@xf-paddingMedium",
+    "extra": "box-shadow: 0px 1px 5px xf-intensify(@xf-paletteAccent2, 10%);\ncolor: #FFF;"
+}</value>
+  </style_property>
+</style_properties>

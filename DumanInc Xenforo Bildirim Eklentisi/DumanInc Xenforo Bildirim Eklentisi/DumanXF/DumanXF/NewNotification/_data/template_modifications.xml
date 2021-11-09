@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="wbb_NewNotificationsAdd" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:EXTRA_OUTPUT-->]]></find>
+    <replace><![CDATA[$0
+<div class="WBB_NewNotification">
+	<xf:if is="$xf.visitor.hasPermission('wbb_newNotificationPerm','showNewMessages')">
+		<xf:if is="$xf.visitor.user_id && {{ $xf.visitor.conversations_unread ? ' badgeContainer--highlighted' : '' }}">
+			<p class="info_alert">
+				<span class="WBB_NewNotificationMsj">
+					<b><pp>{$xf.visitor.conversations_unread|number}</pp> {{ phrase('You_have_new_message') }}</b>			
+				</span>
+				<br/>
+					<a href="{{ link('conversations/popup') }}"><b>{{ phrase('Click_to_read') }}</b></a>
+			</p>
+		</xf:if>		
+	</xf:if>
+	
+	<xf:if is="$xf.visitor.hasPermission('wbb_newNotificationPerm','showNewNotification')">	
+		<xf:if is="$xf.visitor.user_id && {{ $xf.visitor.alerts_unread ? ' badgeContainer--highlighted' : '' }}">
+			<p class="warning_alert">
+				<span class="WBB_NewNotificationMsj">
+					<b><pp>{$xf.visitor.alerts_unread|number}</pp> {{ phrase('You_have_new_notification') }}</b>		
+				</span>	
+				<br/>
+					<a href="{{ link('account/alerts-popup') }}"><b>{{ phrase('Click_to_read') }}</b></a>
+			</p>
+		</xf:if>		
+	</xf:if>	
+</div>]]></replace>
+  </modification>
+  <modification type="public" template="helper_js_global" modification_key="wbb_NewNotificationsCSS" execution_order="20" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:set var="$cssUrls" value="{{ ['public:normalize.css', 'public:fa.css', 'public:core.less', $app . ':app.less'] }}" />]]></find>
+    <replace><![CDATA[<xf:set var="$cssUrls" value="{{ ['public:normalize.css', 'public:fa.css', 'public:core.less', 'public:wbb_Notification.less',$app . ':app.less'] }}" />]]></replace>
+  </modification>
+</template_modifications>

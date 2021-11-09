@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "[Dumanİnc] Yeni Bildirim Sistemi",
+    "description": "Mesaj ve bildirim türünü değiştir",
+    "version_id": 1100000,
+    "version_string": "1.0.0",
+    "dev": "Dumanİnc",
+    "dev_url": "",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "Dumaninc.png"
+}

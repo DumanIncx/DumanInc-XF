@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="Click_to_read" version_id="1000000" version_string="1.0.0" global_cache="1"><![CDATA[Okumak için tıklayın!]]></phrase>
+  <phrase title="You_have_new_message" version_id="1000000" version_string="1.0.0" global_cache="1"><![CDATA[Yeni Mesajın Var!]]></phrase>
+  <phrase title="You_have_new_notification" version_id="1000000" version_string="1.0.0" global_cache="1"><![CDATA[Yeni Bildiriminiz Var!]]></phrase>
+  <phrase title="permission.wbb_newNotificationPerm_showNewMessages" version_id="1000000" version_string="1.0.0"><![CDATA[Show New Messages]]></phrase>
+  <phrase title="permission.wbb_newNotificationPerm_showNewNotification" version_id="1000000" version_string="1.0.0"><![CDATA[Show New Notifications]]></phrase>
+  <phrase title="permission.wbb_newNotificationshow_showNewNotification" version_id="1000000" version_string="1.0.0"><![CDATA[Show New Notifications]]></phrase>
+  <phrase title="permission.wbb_newNotification_showNewNotification" version_id="1000000" version_string="1.0.0"><![CDATA[Show New Notifications]]></phrase>
+  <phrase title="permission_interface.wbb_newNotificationPerm" version_id="1000000" version_string="1.0.0"><![CDATA[[DumanInc] Notification Permissions]]></phrase>
+  <phrase title="style_prop.info_alert" version_id="1000000" version_string="1.0.0"><![CDATA[Message Extra]]></phrase>
+  <phrase title="style_prop.warning_alert" version_id="1000000" version_string="1.0.0"><![CDATA[Notification Extra]]></phrase>
+  <phrase title="style_prop_desc.info_alert" version_id="1000000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.warning_alert" version_id="1000000" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.wbb_Notification" version_id="1000000" version_string="1.0.0"><![CDATA[[DumanInc] Notification Style Properties]]></phrase>
+  <phrase title="style_prop_group_desc.wbb_Notification" version_id="1000000" version_string="1.0.0"><![CDATA[]]></phrase>
+</phrases>

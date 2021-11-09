@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="sF_newNotification" permission_id="showNewNotification" permission_type="flag" interface_group_id="newNotification" display_order="1"/>
+  <permission permission_group_id="wbb_newNotificationPerm" permission_id="showNewMessages" permission_type="flag" interface_group_id="wbb_newNotificationPerm" display_order="2"/>
+  <permission permission_group_id="wbb_newNotificationPerm" permission_id="showNewNotification" permission_type="flag" interface_group_id="wbb_newNotificationPerm" display_order="1"/>
+  <permission permission_group_id="wbb_newNotificationShow" permission_id="showNewNotification" permission_type="flag" interface_group_id="newNotification" display_order="1"/>
+</permissions>
