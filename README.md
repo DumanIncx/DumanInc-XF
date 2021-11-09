@@ -1,1 +1,3 @@
 # DumanInc-XF
+
+DUMANINC XENFORO BİLDİRİM EKLENTİSİ
